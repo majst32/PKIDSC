@@ -106,3 +106,5 @@ $PSBoundParameters.Remove('Verbose') | Out-Null
 Add-CACrlCdpWrapper @PSBoundParameters
 }
 
+Export-ModuleMember -Function @('get-CACRLCDPExistence','Compare-CACRLDistributionPoint','Add-CACrlCDPWrapper','Remove-CACrlCdpWrapper','Set-CACrlCdpWrapper')
+
